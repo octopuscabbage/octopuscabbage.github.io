@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $grey-color-dark;
     text-decoration: none;
 
     &:visited {
@@ -99,7 +99,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: $grey-color-dark;
         text-decoration: underline;
     }
 }
@@ -156,8 +156,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 5));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 5));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -204,3 +204,4 @@ pre {
         }
     }
 }
+

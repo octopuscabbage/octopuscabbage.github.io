@@ -3,9 +3,10 @@
 ---
 @charset "utf-8";
 
-
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 
 // Our variables
+$head-font-family: 'Droid Serif', serif;
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
@@ -51,3 +52,4 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+

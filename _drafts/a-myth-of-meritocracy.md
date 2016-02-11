@@ -2,10 +2,8 @@
 layout: post
 title:  "Myth of Meritocracy"
 date:   2016-02-10 15:17:50 -0600
-categories: meritocracy opinion
+categories: opinion
 ---
-
-#Meritocracy and Github
 
 Many in the tech industry have described their companies as 'meritocracies', which should, in theory, be a good thing. Thinking that a company is a meritocray leads to a lot of problems though, as [Github](https://github.com/) recently acknowledged by doing away with it's [rug claiming that they are a meritocracy.](http://www.businessinsider.com/githubs-ceo-ditches-meritocracy-rug-2014-1) Many have said this was the move of Nicole Sanchez, Github's new social impact team leader. Many on reddit have [critized her](https://www.reddit.com/r/pics/comments/44ttzj/racist_diversity_training_at_github/) and even stated that Github will [go out of business](https://np.reddit.com/r/pics/comments/44ttzj/racist_diversity_training_at_github/czt485h) because of this and other diversity moves. 
 I believe that this was a strong move for the company that has many benefits, and others in the tech industry should follow. 
