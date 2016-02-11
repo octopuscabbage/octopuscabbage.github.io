@@ -1,24 +1,21 @@
 <footer class="site-footer">
 
+
   <div class="wrapper">
-
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+      <div class="footer-col footer-col-1" style="text-align:center">
+          <a href="mailto:{{ site.email }}" style="display: inline-block">{{ site.email }}</a>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <a href="{{ site.baseurl}}/about/">About</a>
+      <div class="footer-col footer-col-2" style="text-align:center">
+        <a style="display: inline-block" href="{{ site.baseurl}}/about/">About</a>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="footer-col footer-col-3" style="text-align: center">
+        <p style="display: inline-block">{{ site.description }}</p>
       </div>
     </div>
-
   </div>
+
 
 </footer>
