@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    min-height: 56px;
+    min-height: 40px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -14,7 +14,7 @@
     display:block;
 }
 .site-title {
-    font-size: 6em;
+    font-size: 4em;
     letter-spacing: .04em;
     margin-top: .5em;
     margin-bottom: .6em;
