@@ -7,7 +7,7 @@ This is the personal page for Chris Denniston, octopuscabbage on most accounts.
 
 I am an aspiring developer with an interest in functional programming and type safe programming. Currently most of my development time goes into the UMKC Robotics team and Payit, Inc. Most of my development is done in Haskell, C++, Java, and Python.
 
-Most of the posts here will probably be about stuff I build or things I feel.
+Most of the posts here will probably be about stuff I build or opinions I have.
 
 Find me other places:
 

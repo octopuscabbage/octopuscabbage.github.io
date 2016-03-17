@@ -20,7 +20,7 @@ It's long been studied that people tend to choose people who look like what soci
 
 White men far and away make up most of the United States tech employees, which should come as a shock to no one. [NPR ran an article](http://www.npr.org/sections/alltechconsidered/2014/05/29/317024113/googles-white-male-heavy-staff-underlines-techs-diversity-problem) stating that 61% of Google's staff is white, and 70% are male. Some will say this is because there are simply less minorities in the field than whites, but [the amount of black and hispanic people earning degrees in computer science nearly doubles the amount of black and hispanic people in the field.](http://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/)
 
-There have also been well studied declines in the amount of women pursuing degrees in computer science since 1980, when the [percent of women in the field was nearly 40%.](http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding) NPR blames this decline on the marketing of computers towards men in the late 80s, which is certainly a factor as well in the idea that a person in tech should be a white male.
+There have also been well studied declines in the number of women pursuing degrees in computer science since 1980, when the [percent of women in the field was nearly 40%.](http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding) NPR blames this decline on the marketing of computers towards men in the late 80s, which is certainly a factor as well in the idea that a person in tech should be a white male.
 
 #The Problem for Companies
 
