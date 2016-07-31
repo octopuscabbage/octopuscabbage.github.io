@@ -9,6 +9,8 @@ I am an aspiring developer with an interest in functional programming and type s
 
 Most of the posts here will probably be about stuff I build or opinions I have.
 
+Opinions expressed are solely my own and do not express the views or opinions of my employer, university, or any other entity.
+
 Find me other places:
 
 [LinkedIn](https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button)
