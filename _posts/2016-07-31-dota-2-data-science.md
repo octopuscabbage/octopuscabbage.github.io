@@ -58,14 +58,14 @@ There appears to be a fairly linear relationship with prediction accuracy and mi
 
 Besides resources, team composition and hero picks are another important factor in determining the success a team has with a DOTA 2 match.  I used a few different models which were trained on the following vectors
 
-Xi = 1 if heroId i was in the match on radiant side, 0 otherwise
+Xi = 1 if heroID i was in the match on radiant side, 0 otherwise
 
-X(i+113) = 1 if heroId i was in the match on dire side, 0 otherwise
+X(i+113) = 1 if heroID i was in the match on dire side, 0 otherwise
 
 Y = 1 if radiant won, 0 otherwise
 
 which leads to a classification problem. This vectorization and one of the models was taken from Kevin Technlology[^9]. 
-The number 113 was chosen because there are 113 heroIds in DOTA 2. There may have been fewer heroes in the dataset I considered, but constant 0s shouldn't have an affect on the output.
+The number 113 was chosen because there are 113 heroIDs in DOTA 2. There may have been fewer heroes in the dataset I considered, but constant 0s shouldn't have an affect on the output.
 
 [^9]: http://kevintechnology.com/post/71621133663/using-machine-learning-to-recommend-heroes-for Many techniques for captains pick lifted from here.
 
