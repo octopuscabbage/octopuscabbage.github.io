@@ -12,11 +12,11 @@ DOTA 2 is a heavily played game, with 640,227 average players in June of 2016.[^
 [^1]: http://steamcharts.com/app/570
 [^2]: https://yasp.co/
 
-#Reason For Doing This Project
+# Reason For Doing This Project
 
 I am not someone who regularly plays DOTA 2. I have many friends that do and there exist a large community and public data. I think this made it a good choice for a machine learning project since I have minimal domain-specific knowledge and the data was widely accessible. Additionally, having people who are interested in the results and like to chat about the project made gathering knowledge easier than something like a finance or crime project.
 
-#Dataset and Filters
+# Dataset and Filters
 
 For a dataset, I initially looked at the YASP 3.5 Million Data Dump[^3] but ended up mostly using the YASP December 2015 500k Data Dump[^4]  since it was smaller and easier to deal with. I filtered the data by removing games where the there were less than 10 human players and none of the players had leaver status. [^5] This was done to remove some variance from the data while still preserving a wide range of games. Unlike most other projects doing similar things, I did not filter out games in the low skill bracket.
 
@@ -24,7 +24,7 @@ For a dataset, I initially looked at the YASP 3.5 Million Data Dump[^3] but ende
 [^4]: http://academictorrents.com/details/384a08fd7918cd59b23fb0c3cf3cf1aea3ea4d42
 [^5]: http://dev.dota2.com/showthread.php?t=105752 The best explanation of leaver status I could find.
 
-#Accuracy of Prediction in Games given GPM[^6] and XPM[^7] History To That Minute
+# Accuracy of Prediction in Games given GPM[^6] and XPM[^7] History To That Minute
 
 This question explores what the link between resource acquisition history and accuracy of predicting a user. DOTA 2 is largely considered a resources game, a paper found that they could predict the winner or loser with 99.58% accuracy by looking at GPM and XPM after a game. [^8]
 The model was built by looking at the history of the GPM and XPM at every minute up to a specific minute, and then built a logistic regression model off of that history and then tried to predict the outcome of the game. Each model used 5000 samples and was validated against 10 fold cross validation. These samples weren't necessarily the same 5000 samples since it takes the first 5000 samples where the game is long enough to contain that many minutes, so a 40-minute game wouldn't be considered at 60 minutes.
@@ -44,7 +44,7 @@ T is a particular minute of the game, and max_time is the maximum amount of time
 [^7]: Experience Per Minute, Experience is used to build a hero to be stronger and learn new abilities. http://dota2.gamepedia.com/Experience
 [^8]: http://cseweb.ucsd.edu/~jmcauley/cse255/reports/fa15/018.pdf Page 6, Table 1
 
-##Graph
+## Graph
 ![accuracy vs xpm and gpm history]({{ site.url }}/assets/accuracy_vs_xpm_and_gpm_history.png)
 
 There appears to be a fairly linear relationship with prediction accuracy and minutes into the game until you get to about 30 minutes into the game when it starts to level off. This could hint that the first 30 minutes of the game are the most important in terms of resources.
@@ -54,7 +54,7 @@ There appears to be a fairly linear relationship with prediction accuracy and mi
 
 
 
-#Predicting Win/Loss Using Initial Hero Picks
+# Predicting Win/Loss Using Initial Hero Picks
 
 Besides resources, team composition and hero picks are another important factor in determining the success a team has with a DOTA 2 match.  I used a few different models which were trained on the following vectors
 
@@ -70,9 +70,9 @@ The number 113 was chosen because there are 113 heroIDs in DOTA 2. There may hav
 
 [^9]: http://kevintechnology.com/post/71621133663/using-machine-learning-to-recommend-heroes-for Many techniques for captains pick lifted from here.
 
-##Models
+## Models
 
-###Logistic Regression
+### Logistic Regression
 
 Logistic Regression performed fairly well and was very quick to train. I used most of the SKlearn defaults for LogisticRegression but changed the number of jobs for the fitting routine to match the number of cores I wanted to use. [^10]
 
@@ -123,7 +123,7 @@ Kevin Technology reported improvements using a custom weighting function describ
 ### Neural Networks
 I tried to implement a Neural Network because I believed it would do well in a high factor space and consider hero relationships well, but I couldn't get any results above 53% accuracy, probably because I only have a very basic understanding of them. Exploring Neural Networks could be a project for the future.
 
-#Tools Used
+# Tools Used
 
 * [python3](https://www.python.org/)
 * [scikit-learn](http://scikit-learn.org/stable/)
