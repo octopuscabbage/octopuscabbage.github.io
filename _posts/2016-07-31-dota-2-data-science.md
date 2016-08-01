@@ -58,6 +58,7 @@ There appears to be a fairly linear relationship with prediction accuracy and mi
 
 Besides resources, team composition and hero picks are another important factor in determining the success a team has with a DOTA 2 match.  I used a few different models which were trained on the following vectors
 
+
 Xi = 1 if heroID i was in the match on radiant side, 0 otherwise
 
 X(i+113) = 1 if heroID i was in the match on dire side, 0 otherwise
