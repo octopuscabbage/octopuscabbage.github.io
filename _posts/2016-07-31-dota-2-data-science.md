@@ -233,7 +233,7 @@ construct_accuracy_with_sample_size_plots(model,construct_hero_matrix_and_win_ve
 
 ~~~ python
 # setup_data.py
-import ijson
+import json
 from sklearn import cross_validation
 import matplotlib.pyplot as plt
 import numpy as np
@@ -345,5 +345,6 @@ accuracy_over_time()
 
 ~~~
 
+Update January 8, 2017: I recieved an email saying the code didn't run. I changed it so it hopefully does now.
 
 
